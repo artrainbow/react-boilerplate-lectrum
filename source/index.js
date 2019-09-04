@@ -1,16 +1,11 @@
 // Core
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+import { render } from 'react-dom';
 
-// Theme
+// Instruments
 import './theme/init';
 
-import App from './containers/App';
-
 // App
-ReactDOM.render(
-    <BrowserRouter>
-        <App />
-    </BrowserRouter>,
-    document.getElementById('app'));
+import App from './pages/App';
+
+render(<App />, document.getElementById('app'));
