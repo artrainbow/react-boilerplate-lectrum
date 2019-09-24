@@ -58,8 +58,8 @@ export const setupHtml = () => ({
         new HtmlWebpackPlugin({
             inject:   false,
             template: HtmlWebpackTemplate,
-            title:    'Интенсив по React: персональный проект',
-            favicon:  `${statics}/favicon/Lectrum-favicon-512x512.png`,
+            title:    'React boilerplate',
+            favicon:  `${statics}/favicon/favicon.svg`,
             meta:     [
                 {
                     name:    'viewport',
